@@ -8,4 +8,4 @@ on:
 
 jobs:
   print_main_workflow:
-    uses: ./.github/workflows/reusable-wl.yaml
+    uses: ./.github/workflows/reusable-wl.yml
