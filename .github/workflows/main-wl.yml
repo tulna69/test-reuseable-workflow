@@ -1,0 +1,13 @@
+name: main-workflow
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  print_main_workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Starting main workflow"
