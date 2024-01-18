@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Starting main workflow"
-      - uses: test-reuseable-workflow\.github\workflows\reusable-wl.yml
+      - uses: test-reuseable-workflow\.github\workflows\reusable-wl@main
