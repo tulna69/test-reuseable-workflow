@@ -8,7 +8,4 @@ on:
 
 jobs:
   print_main_workflow:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Starting main workflow"
-      - uses: test-reuseable-workflow\.github\workflows\reusable-wl@main
+    uses: ./.github/workflows/reusable-wl@main
